@@ -3,6 +3,5 @@
 
 return [
     '/'          => 'HomeController@index',
-    '/contato'   => 'ContactController@index',
-    '/dashboard' => 'DashboardController@index',
+    '/ze-do-bairro' => 'ZeController@index',
 ];

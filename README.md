@@ -34,3 +34,14 @@ Siga os comandos abaixo no seu terminal Linux para rodar o projeto localmente:
 composer install
 composer dump-autoload
 composer dev
+
+# Configurações de Banco de Dados
+DB_HOST=localhost
+DB_PORT=3306
+DB_NAME=seu_banco
+DB_USER=root
+DB_PASS=suasenha
+
+# Configurações do App
+APP_DEBUG=true
+APP_URL=http://localhost:5050

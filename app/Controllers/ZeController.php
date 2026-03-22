@@ -3,9 +3,9 @@ namespace App\Controllers;
 
 use App\Core\Controller;
 
-class HomeController extends Controller {
+class ZeController extends Controller {
     public function index() {
-        $this->view('home', [
+        $this->view('ze-do-bairro', [
             'titulo' => 'Grupo Pimentel',
             'desc'   => 'Rodando no Railway/Square Cloud',
         ]);
